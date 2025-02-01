@@ -1,4 +1,8 @@
+import torch
+torch.cuda.is_available() # 查看pytorch是否支持CUDA
+
 from PIL import Image
+
 from torch.utils.tensorboard import SummaryWriter
 from torchvision import transforms
 import cv2
